@@ -14,16 +14,16 @@ header {
 }
 
 header .company-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    width: 100%; /* Use full width of the header */
 }
 
 header .company-logo img {
-    background-color: #000000;
-    width: 805px; /* Fixed width, scaled down from original dimensions */
-    height: 103px; /* Height will adjust automatically to maintain aspect ratio */
-    margin: 0 auto; /* Center the image horizontally */
+    max-width: 200px; /* Set a maximum width */
+    height: auto; /* Keep the aspect ratio */
+    object-fit: contain; /* Prevent clipping */
 }
 
 .project-details, .employment-requirements, .parking-info, .badging-info {
