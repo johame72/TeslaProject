@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: rgb(4, 86, 164); /* Updated main background color */
     color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #0456A4;
+    background-color: #000000; /* Changed header background to black */
     color: #FFFFFF;
     text-align: center;
     padding: 20px 0;
@@ -16,9 +16,17 @@ header {
 header .company-logo img {
     background-color: #000000;
     padding: 10px;
+    width: auto;
+    height: 70%; /* Resize the icon height */
+    display: block;
+    margin: 0 auto; /* Center the icon */
 }
 
-.project-details, .employment-requirements, .parking-info {
+.project-details, .employment-requirements, .parking-info, .badging-info {
     margin: 20px;
     padding: 15px;
-   
+    background-color: #fff; /* Ensure content sections are readable */
+    color: #000; /* Text color for readability */
+}
+
+/* Add any additional styling here */
