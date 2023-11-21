@@ -17,7 +17,7 @@ header .company-logo img {
     background-color: #000000;
     padding: 10px;
     width: auto;
-    height: 70%; /* Resize the icon height */
+    height: 85%; /* Resize the icon height */
     display: block;
     margin: 0 auto; /* Center the icon */
 }
