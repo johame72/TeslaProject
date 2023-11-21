@@ -18,10 +18,11 @@ header .company-logo {
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     width: 100%; /* Use full width of the header */
+    height: 50%;
 }
 
 header .company-logo img {
-    max-width: 200px; /* Set a maximum width */
+    max-width: 500px; /* Set a maximum width */
     height: auto; /* Keep the aspect ratio */
     object-fit: contain; /* Prevent clipping */
 }
