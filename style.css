@@ -37,7 +37,7 @@ iframe {
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     header .company-logo img {
-        width: 100px; /* Smaller size for mobile */
+        width: 200px; /* Smaller size for mobile */
     }
 
     .project-details, .employment-requirements, .parking-info, .badging-info {
