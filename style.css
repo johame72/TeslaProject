@@ -17,11 +17,12 @@ header .company-logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%; /* Make the container full width */
 }
 
 header .company-logo img {
     background-color: #000000;
-    width: 30%; /* Reduced the width to 30% */
+    width: 50%; /* Adjust the width of the icon to fit within the container */
     height: auto; /* Adjust height automatically to maintain aspect ratio */
     object-fit: contain; /* Ensures the image is scaled properly */
     margin: auto; /* Center the image horizontally */
