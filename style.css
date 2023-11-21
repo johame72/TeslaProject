@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0456A4;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .company-logo img {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.project-details, .employment-requirements, .parking-info {
+    margin: 20px;
+    padding: 15px;
+   
