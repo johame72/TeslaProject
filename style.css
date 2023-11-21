@@ -1,32 +1,37 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(4, 86, 164); /* Updated main background color */
+    background-color: rgb(4, 86, 164);
     color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #000000; /* Changed header background to black */
+    background-color: #000000;
     color: #FFFFFF;
     text-align: center;
     padding: 20px 0;
 }
 
+header .company-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header .company-logo img {
     background-color: #000000;
-    padding: 10px;
-    width: auto;
-    height: 85%; /* Resize the icon height */
-    display: block;
-    margin: 0 auto; /* Center the icon */
+    width: 30%; /* Reduced the width to 30% */
+    height: auto; /* Adjust height automatically to maintain aspect ratio */
+    object-fit: contain; /* Ensures the image is scaled properly */
+    margin: auto; /* Center the image horizontally */
 }
 
 .project-details, .employment-requirements, .parking-info, .badging-info {
     margin: 20px;
     padding: 15px;
-    background-color: #fff; /* Ensure content sections are readable */
-    color: #000; /* Text color for readability */
+    background-color: #fff;
+    color: #000;
 }
 
 /* Add any additional styling here */
