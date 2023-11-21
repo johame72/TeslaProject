@@ -17,15 +17,14 @@ header .company-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Make the container full width */
 }
 
 header .company-logo img {
     background-color: #000000;
-    width: auto; /* Adjust the width of the icon to fit within the container */
-    height: 50%; /* Adjust height automatically to maintain aspect ratio */
+    width: 200px; /* Fixed width, scaled down from original dimensions */
+    height: auto; /* Height will adjust automatically to maintain aspect ratio */
     object-fit: contain; /* Ensures the image is scaled properly */
-    margin: auto; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 .project-details, .employment-requirements, .parking-info, .badging-info {
@@ -35,4 +34,4 @@ header .company-logo img {
     color: #000;
 }
 
-/* Add any additional styling here */
+/* Additional styling here */
