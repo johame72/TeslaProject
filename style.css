@@ -46,4 +46,11 @@ iframe {
     }
 }
 
+.project-details, .employment-requirements, .parking-info, .badging-info, .drug-testing-info {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    color: #000;
+}
+
 /* Add additional responsive design rules as needed */
