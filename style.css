@@ -59,4 +59,12 @@ iframe {
     font-weight: bold;
 }
 
+/* Styles for the new hire map image to match the width of iframes */
+.new-hire-map img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures it takes its own line */
+    margin: auto; /* Center align if the image is smaller than the container */
+}
+
 /* Add additional responsive design rules as needed */
