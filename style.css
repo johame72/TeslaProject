@@ -1,3 +1,4 @@
+/* Styles for the body */
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(4, 86, 164);
@@ -6,6 +7,7 @@ body {
     padding: 0;
 }
 
+/* Styles for the header */
 header {
     background-color: #000000;
     color: #FFFFFF;
@@ -13,6 +15,7 @@ header {
     padding: 20px 0;
 }
 
+/* Styles for the company logo in the header */
 header .company-logo img {
     width: 400px; /* Fixed width */
     height: auto; /* Maintain aspect ratio */
@@ -21,36 +24,39 @@ header .company-logo img {
     display: block;
 }
 
-.project-details, .employment-requirements, .parking-info, .badging-info {
+/* Styles for project details and other sections */
+.project-details, .employment-requirements, .parking-info, .badging-info, .drug-testing-info, .new-hire-map {
     margin: 20px;
     padding: 15px;
     background-color: #fff;
     color: #000;
 }
 
+/* Styles for iframes */
 iframe {
     width: 100%;
     height: 450px; /* Adjust height as needed */
     border: none;
 }
 
-/* Responsive Design */
+/* Responsive design adjustments */
 @media screen and (max-width: 768px) {
+    /* Adjust company logo size for mobile */
     header .company-logo img {
         width: 300px; /* Smaller size for mobile */
     }
 
-    .project-details, .employment-requirements, .parking-info, .badging-info {
+    /* Adjust margins and paddings for sections on smaller screens */
+    .project-details, .employment-requirements, .parking-info, .badging-info, .drug-testing-info, .new-hire-map {
         margin: 10px;
         padding: 10px;
     }
 }
 
-.project-details, .employment-requirements, .parking-info, .badging-info, .drug-testing-info {
-    margin: 20px;
-    padding: 15px;
-    background-color: #fff;
-    color: #000;
+/* Class for the red "UPDATE" text */
+.update-text {
+    color: red;
+    font-weight: bold;
 }
 
 /* Add additional responsive design rules as needed */
