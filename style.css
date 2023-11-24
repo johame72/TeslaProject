@@ -67,4 +67,9 @@ iframe {
     margin: auto; /* Center align if the image is smaller than the container */
 }
 
+.heading-line h2, .heading-line h3 {
+    display: inline-block; /* Or use 'inline' based on your preference */
+    margin-right: 10px; /* Adjust spacing between the headings as needed */
+}
+
 /* Add additional responsive design rules as needed */
